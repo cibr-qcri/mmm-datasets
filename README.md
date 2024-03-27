@@ -24,7 +24,7 @@ This dataset contains 30,012 public BlockchainInfo tags of unique Bitcoin addres
 
 ## Citation
 
-If you use Dizzy or any of its datasets, please cite the following [publication](https://arxiv.org/abs/2209.07202):
+If you use Dizzy or any of its datasets, please cite the following [publication](https://arxiv.org/abs/1910.12244):
 ```
 @inproceedings{boshmaf2020investigating,
   title={Investigating MMM Ponzi scheme on bitcoin},
