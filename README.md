@@ -8,19 +8,19 @@ The following datasets are *non-filtered* crawls of BitcoinTalk user pofiles and
 
 This dataset contains public BitcoinTalk profile info of 40,971 users grouped by their Bitcoin addresses (a total of 39,321 unique addresses). Each line in the dataset file is a JSON dump of a key/value object describing the linked users of a unique Bitcoin address, as follows:
 
-| Key     | Value                                                           |
-|---------|-----------------------------------------------------------------|
-| address | Bitcoin address                                                 |
-| users   | A list of user objects, each representing a public profile info |
+| Key     | Value                                                                                         |
+|---------|-----------------------------------------------------------------------------------------------|
+| address | Bitcoin address                                                                               |
+| users   | A list of user data, each consisting of the user's public profile info (name, location, etc.) |
 
 ## [tags.json.zip](https://raw.githubusercontent.com/cibr-qcri/mmm-datasets/main/tags.json.zip)
 
 This dataset contains 30,012 public BlockchainInfo tags of unique Bitcoin addresses. Each line in the dataset file is a JSON dump of a key/value object describing a tag of a Bitcoin address, as follows:
 
-| Key     | Value                                              |
-|---------|----------------------------------------------------|
-| address | Bitcoin address                                    |
-| tag     | Tag data including its value and verification info |
+| Key     | Value                                                  |
+|---------|--------------------------------------------------------|
+| address | Bitcoin address                                        |
+| tag     | Tag data consisting of its value and verification info |
 
 ## Citation
 
