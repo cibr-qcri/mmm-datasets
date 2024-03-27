@@ -1,6 +1,6 @@
 # mmm-datasets
 
-Public datasets from [MMM](https://arxiv.org/abs/1910.12244) – a one of the oldest and most popular Ponzi schemes.
+Public datasets from our [paper](https://arxiv.org/abs/1910.12244) on investigating MMM Ponzi scheme on Bitcoin.
 
 The following datasets are *non-filtered* crawls of BitcoinTalk user pofiles and BlockchainInfo public tags from 2019. Each dataset is a JSON file (i.e., lines of JSON strings) that is compressed using ZIP archive file format. Make sure to uncompress the file before parsing it. Make sure to follow the filtering described in the paper to get MMM-specific users and tags.
 
